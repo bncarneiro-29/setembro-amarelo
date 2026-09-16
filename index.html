@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Espaço acadêmico de apoio emocional e conscientização.">
+  <title>Acolhe+ | Apoio Emocional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Acolhe<span>+</span></a>
+
+      <nav>
+        <a href="#apoio">Apoio</a>
+        <a href="#respirar">Respirar</a>
+        <a href="#ajuda">Onde buscar ajuda</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="tag">UM ESPAÇO PARA VOCÊ</p>
+          <h1>Respire. Você não precisa passar por tudo sozinho.</h1>
+          <p>
+            Um espaço acadêmico criado para incentivar o autocuidado,
+            a conscientização e a busca por apoio emocional.
+          </p>
+
+          <div class="buttons">
+            <a class="btn emergency" href="tel:188">
+              ☎ Ligue 188 — CVV
+            </a>
+
+            <a class="btn secondary" href="#respirar">
+              Fazer um exercício
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="heart">♡</div>
+          <h2>Seu bem-estar importa</h2>
+          <p>
+            Pequenos momentos de cuidado também podem fazer diferença.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="apoio" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p class="tag">APOIO IMEDIATO</p>
+          <h2>Escolha uma forma de cuidar de si</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <span>🌿</span>
+            <h3>Respiração guiada</h3>
+            <p>
+              Um exercício simples para desacelerar por alguns instantes.
+            </p>
+            <a href="#respirar">Começar exercício →</a>
+          </article>
+
+          <article class="card">
+            <span>💭</span>
+            <h3>Mensagem positiva</h3>
+            <p>
+              Receba uma mensagem de acolhimento para este momento.
+            </p>
+            <button id="messageBtn">Receber mensagem →</button>
+          </article>
+
+          <article class="card">
+            <span>🤝</span>
+            <h3>Buscar ajuda</h3>
+            <p>
+              Conheça alguns serviços onde você pode procurar atendimento.
+            </p>
+            <a href="#ajuda">Ver opções →</a>
+          </article>
+        </div>
+
+        <div id="messageBox" class="message-box">
+          <p id="messageText">Sua mensagem aparecerá aqui.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="respirar" class="breathing-section">
+      <div class="container breathing">
+        <div>
+          <p class="tag">EXERCÍCIO DE RESPIRAÇÃO</p>
+          <h2>Vamos respirar juntos?</h2>
+          <p>
+            Encontre uma posição confortável. Inspire e expire seguindo
+            o círculo durante alguns ciclos.
+          </p>
+
+          <button id="breathingBtn" class="btn primary">
+            Iniciar exercício
+          </button>
+        </div>
+
+        <div class="breathing-area">
+          <div id="breathingCircle" class="breathing-circle">
+            <span id="breathingText">Pronto?</span>
+          </div>
+
+          <p id="timerText">Você pode começar quando quiser.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ajuda" class="section help-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="tag">REDE DE APOIO</p>
+          <h2>Onde buscar ajuda?</h2>
+          <p>
+            Se estiver passando por uma situação difícil, procure pessoas
+            e serviços de saúde que possam oferecer acompanhamento.
+          </p>
+        </div>
+
+        <div class="help-grid">
+          <article class="help-item">
+            <strong>CAPS</strong>
+            <p>
+              Centros de Atenção Psicossocial que oferecem atendimento
+              em saúde mental pelo SUS.
+            </p>
+          </article>
+
+          <article class="help-item">
+            <strong>Unidades de Saúde</strong>
+            <p>
+              Postos e unidades básicas de saúde podem orientar sobre
+              atendimento e encaminhamentos.
+            </p>
+          </article>
+
+          <article class="help-item">
+            <strong>Clínicas-escola</strong>
+            <p>
+              Instituições de ensino podem oferecer atendimento psicológico
+              supervisionado, conforme disponibilidade.
+            </p>
+          </article>
+
+          <article class="help-item cvv-card">
+            <strong>CVV — 188</strong>
+            <p>
+              Em situações de sofrimento emocional, você pode conversar
+              gratuitamente com o CVV.
+            </p>
+            <a href="tel:188">Ligar para 188</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Acolhe+</strong></p>
+      <p>
+        Projeto acadêmico de conscientização e apoio emocional.
+        Esta aplicação não substitui atendimento psicológico,
+        médico ou profissional especializado.
+      </p>
+      <small>© 2026 — Projeto acadêmico</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
